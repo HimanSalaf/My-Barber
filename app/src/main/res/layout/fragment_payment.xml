@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentFragment">
+
+        <ImageView
+            android:id="@+id/pay"
+            android:layout_marginTop="200dp"
+            android:layout_width="335dp"
+            android:layout_height="335dp"
+            android:alpha="0.3"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/payment3d"/>
+        <!-- Payment Amount -->
+        <TextView
+            android:id="@+id/tv_payment_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_payment_amount"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/paymentMsg"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:text="@string/paymentMsg2"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <!-- Payment Button -->
+        <Button
+            android:id="@+id/btn_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp" />
+
+</RelativeLayout>

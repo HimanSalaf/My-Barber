@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Barber</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="cities">
+        <item>Kalmunai</item>
+        <item>Kattankudy</item>
+        <item>Batticaloa</item>
+        <item>Ampara</item>
+        <item>Maruthamunai</item>
+    </string-array>
+    <string-array name="kalmunai_address">
+        <item>14, Main Street, Kalmunai</item>
+        <item>145, Cassim Road, Kalmunai</item>
+    </string-array>
+    <string-array name="kattankudy_address">
+        <item>Main Street, Kattankudy</item>
+        <item>432, Telecom Rd, Kattankudy</item>
+    </string-array>
+    <string-array name="maruthamunai_address">
+        <item>Al Minan Rd, Pandiruppu</item>
+        <item>49C, Akbar Rd, Maruthamunai</item>
+    </string-array>
+    <string-array name="batticaloa_address">
+        <item>19A Kumara Kovil Rd No 1, Batticaloa</item>
+        <item>Trincomalee Hwy, Batticaloa</item>
+    </string-array>
+    <string-array name="ampara_address">
+        <item>9Q7, 5th Ave, Ampara</item>
+        <item>B, 584 Dharmapala Mawatha, Ampara</item>
+    </string-array>
+    <string-array name="barbers">
+        <item>Safni</item>
+        <item>Fajarath</item>
+        <item>Dhinesh</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="payment_amount">Total Payment amount: %s0</string>
+    <string name="paymentMsg">You have to pay the above total amount to complete the booking process.</string>
+    <string name="paymentMsg2">By clicking PAY button below You can pay with Visa Card or Master card</string>
+
+</resources>

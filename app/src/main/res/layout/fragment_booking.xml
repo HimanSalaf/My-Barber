@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BookingFragment">
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="90dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/city3d" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/black"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Booking"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btnnoti1"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="350dp"
+        app:icon="@drawable/baseline_notifications_24"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:padding="18dp"
+            android:textSize="20sp"
+            android:text="Select City"
+            android:textColor="@color/black">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/city_spinner"
+            android:layout_width="360dp"
+            android:layout_height="58dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/spinner_background"
+            android:padding="18dp" />
+
+        <Button
+            android:id="@+id/nxtBtn1"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="50dp"
+            android:text="Next"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="400dp"
+            android:padding="18dp"
+            android:text="or"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginHorizontal="27dp"
+            android:text="if you want doorstep service click below"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <Button
+        android:id="@+id/doorBtn"
+        android:layout_width="239dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="500dp"
+        android:padding="5dp"
+        android:text="DoorStep" />
+
+    <Button
+        android:id="@+id/viewBookings"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="600dp"
+        android:padding="5dp"
+        android:text="View all your bookings here" />
+</FrameLayout>

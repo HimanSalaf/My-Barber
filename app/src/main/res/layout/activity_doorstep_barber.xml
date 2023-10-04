@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoorstepBarber">
+
+    <Button
+        android:id="@+id/continueToBtn"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="50dp"
+        android:text="Continue to confirm" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="306dp"
+        android:layout_height="331dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="-30dp"
+        android:alpha="0.2"
+        app:srcCompat="@drawable/barber3d" />
+
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:padding="18dp"
+        android:text="Pick your Barber"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:padding="18dp"
+        android:text="Pick your Location"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <Spinner
+        android:id="@+id/bSpinner"
+        android:layout_width="360dp"
+        android:layout_height="58dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/spinner_background"
+        android:padding="18dp" />
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="370dp"
+        android:layout_height="57dp"
+        android:hint="Enter Your Address"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="15dp"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#6E6B6B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="210dp"
+        android:text="OR"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/gpsLayout">
+    </FrameLayout>
+
+</FrameLayout>

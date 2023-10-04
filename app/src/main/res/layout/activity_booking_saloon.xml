@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingSaloon">
+    <Button
+        android:id="@+id/nxtBtn3"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="50dp"
+        android:text="Next" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/black"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Booking"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/btnnoti1"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="350dp"
+        app:icon="@drawable/baseline_notifications_24"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:alpha="0.3"
+        app:srcCompat="@drawable/map3d" />
+
+    <TextView
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:text="Select Address"
+        android:textColor="@color/black">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/add_spinner"
+        android:layout_width="360dp"
+        android:layout_height="58dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/spinner_background"
+        android:padding="18dp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/mapLayout">
+    </FrameLayout>
+
+</FrameLayout>
